@@ -1,0 +1,40 @@
+#footer_logo{
+    max-height: 350px;
+}
+
+footer{
+    background: #14213D;
+}
+
+.logo_SM_footer{
+    max-height: 25px;
+}
+
+#SM_footer a{
+    text-decoration: none;
+}
+
+#footer_info{
+    display: flex;
+}
+
+#email_label{
+    display: flex;
+    flex-direction: column;
+}
+
+.email_label_element{
+    margin: 3px;
+}
+
+.logo_B_footer{
+    max-height: 50px;
+}
+
+#brands_info a{
+    text-decoration: none;
+}
+
+.footer_info_elements{
+    margin: 20px;
+}
