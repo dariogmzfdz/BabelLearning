@@ -32,12 +32,16 @@
     justify-content: space-around;
 }
 
+.filter_element:hover, #cart:hover, #user_logo:hover{
+    color: #FCA311;
+}
+
 #header_logo{
     max-height: 250px;
 }
 
 #user_logo{
-    max-height: 30px;
+    font-size: 2em;
 }
 
 #user_config{
