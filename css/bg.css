@@ -1,16 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #a3d9f0;
-}
-
 .infinite {
   position: fixed;
-  width: 80%;
+  top: 50%;
+  width: 150%;
   height: 160px;
   background: #525252;
   transform-origin: bottom;

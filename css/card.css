@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  background-color: #14213d;
   cursor: pointer;
   width: 15rem;
   border-radius: 1.5rem;
@@ -12,11 +12,16 @@
 .wrapper:hover {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
-  background-color: #505050;
+  background-color: #fca311;
 }
 
 .wrapper:hover .imageWrapper {
   transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper:hover .text {
+  color: #14213d;
   transition: all 0.3s ease-in-out;
 }
 
@@ -49,7 +54,7 @@
   margin-bottom: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  font-weight: 500;
+  font-weight: 900;
   line-height: 1;
   font-size: 1rem;
   letter-spacing: 0.05rem;
