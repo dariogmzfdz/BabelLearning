@@ -1,0 +1,122 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.container {
+    background-color: #FCA311;
+    margin: auto;
+    width: 500px;
+    height: 672px;
+    top: 200px;
+    left: 655px;
+    border-radius: 74px;
+    box-shadow: 0 10px #d66e184f;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-login {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-register {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#forgotPassword a{
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    color: red;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+.check-remember {
+    margin-bottom: 200px;
+    width: 450px;
+}
+
+.section-inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+#register {
+    display: flex;
+    justify-content: center;
+    margin: 10px 15px 15px 15px;
+}
+
+#register a{
+    color: red;
+    text-decoration: none;
+}
+
+input label {
+    margin: 15px 20px 15px 20px;
+    display: flex;
+    gap: 10px;
+    width: 260px;
+    height: 28px;
+    color: #0000;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.label-login input {
+    margin: 15px 20px 15px 20px;
+    display: flex;
+    gap: 10px;
+    width: 260px;
+    height: 28px;
+    color: #0000;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 28px;
+}
+.label-register input {
+    margin: 15px 20px 15px 20px;
+    display: flex;
+    gap: 10px;
+    width: 260px;
+    height: 28px;
+    color: #0000;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    margin: 50px 0;
+    width: 130px;
+    border: none;
+    color: #FCA311;
+    padding: 10px 24px 10px 21px;
+    border-radius: 12px;
+}
+
+
