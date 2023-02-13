@@ -56,4 +56,13 @@ footer{
     border-radius: 5px;
     border: none;
     height: 30px;
+    cursor: pointer;
+}
+
+#submit_email:hover{
+    background: rgb(78, 77, 77);
+}
+
+#submit_email:active{
+    background: #FCA311;
 }
