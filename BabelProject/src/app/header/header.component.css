@@ -1,8 +1,9 @@
 #header_container{
-    height: 250px;
+    height: 190px;
     display: flex;
     justify-content: space-between;
     background: #14213D;
+    padding: 10px;
 }
 
 #header_content{
@@ -16,7 +17,7 @@
 #header_info{
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    width: 40%;
 }
 
 #header_config_section{
@@ -42,7 +43,7 @@
 }
 
 #header_logo{
-    max-height: 250px;
+    max-height: 200px;
 }
 
 .round{
@@ -56,7 +57,7 @@
 #search_input{
     background: url('../../assets/img/logos/search_logo.png') no-repeat 97% center;
     background-color: #E5E5E5;
-    width: 100%;
+    width: 110%;
     height: 40px;
     border-radius: 8px;
     border: none;
@@ -67,7 +68,7 @@
 }
 
 #search_bar_section{
-    width: 55%;
+    width: 60%;
     margin-right: 5px;
 }
 
