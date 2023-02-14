@@ -5,19 +5,16 @@
 #footer_container{
     display: flex;
 }
+
 footer{
     background: #14213D;
-}
-
-.logo_SM_footer{
-    height: 25px;
-    font-size: 25px;
 }
 
 #SM_footer{
     display: flex;
     align-items: center;
 }
+
 #SM_footer a{
     text-decoration: none;
     color: rgb(240, 240, 240);
@@ -56,6 +53,13 @@ footer{
 
 #input_email{
     height: 40px;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+}
+
+#input_email:focus-visible {
+    outline: 1px solid #FCA311;
 }
 
 #submit_email{
