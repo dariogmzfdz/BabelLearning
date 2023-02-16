@@ -1,42 +1,44 @@
 
    <header>
-       <mat-card class="row">
+       <mat-card class="row my_header">
    
-           <div class="col-xs-2-4">
+           <div class="col-md-2">
                <a href="#"><img src="../../assets/img/logos/MicrosoftTeams-image 1.png" alt="logo" id="header_logo"></a>
            </div>
    
-           <div class="col-xs-2-8">
+           <div class="col-md-10 header_content">
    
-               <div class="row">
+               <div>
                    <p class="col-xs-6"> <mat-icon>call</mat-icon> 555 555 555</p>
                    <p class="col-xs-6"> <mat-icon>email</mat-icon> caram@gmail.com </p>
                </div>
    
-               <div class="row">
-                   <div class="col-md-6">
-                       <input type="text" placeholder="search">
+               <div>
+                   <div class="col-md-8">
+                        <mat-form-field class="full-width">
+                            <input matInput type="text" class="form form-control" placeholder="search">
+                        </mat-form-field>
                    </div>
            
-                   <div class="col-md-3">
-                        <div class="row">
+                   <div class="col-md-2">
+                        <div>
 
-                            <div class="col-md-6 touchable round hover_orange-color marginable">
-                                <mat-icon>person</mat-icon>
+                            <div class="col-xs-6    ">
+                                <mat-icon class="touchable round hover_orange-color">person</mat-icon>
                             </div>
                 
-                            <div class="col-md-6 touchable round hover_orange-color marginable">
-                                 <mat-icon>shopping_cart</mat-icon>
+                            <div class="col-xs-6">
+                                 <mat-icon class="touchable round hover_orange-color">shopping_cart</mat-icon>
                             </div>
                         </div>
                    </div>
            
-                   <div  class="col-md-3 touchable">           
+                   <div  class="col-md-2 touchable">           
                           <img src="../../assets/img/logos/menu_logo.png" alt="menu" id="menu_logo">
                    </div>
                </div>
 
-               <div class="row">
+               <div>
                    <div class="col-xs-2 touchable hover_orange-color"><span>News</span>&nbsp;<mat-icon>keyboard_arrow_down</mat-icon></div>
 
                    <div class="col-xs-2 touchable hover_orange-color"><span>By Year</span>&nbsp;<mat-icon>keyboard_arrow_down</mat-icon></div>

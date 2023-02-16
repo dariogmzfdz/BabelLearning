@@ -2,7 +2,6 @@
     height: 190px;
     display: flex;
     justify-content: space-between;
-    background: #14213D;
     padding: 10px;
 }
 
@@ -31,10 +30,6 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-}
-
-.hover_orange-color:hover{
-    color: #FCA311;
 }
 
 .alignable{
@@ -68,10 +63,6 @@
     margin-right: 5px;
 }
 
-.touchable{ 
-    cursor: pointer;
-}
-
 #user_data{
     display: flex;
     align-items: center;
@@ -86,4 +77,43 @@
 
 #menu_logo{
     height: 70px;
+}
+
+.hover_orange-color:hover{
+    color: #FCA311;
+}
+
+.touchable{ 
+    cursor: pointer;
+}
+
+.my_header{
+    background: #14213D;
+}
+
+.header_content{
+    height: 200px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.full-width input{
+    background: dimgrey;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #FCA311 !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: #FCA311 !important;
+}
+.form-control:focus{
+
+    box-shadow: none !important;
+
 }

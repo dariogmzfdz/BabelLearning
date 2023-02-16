@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
+import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
