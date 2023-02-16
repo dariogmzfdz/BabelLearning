@@ -1,4 +1,4 @@
-#header_container{
+/* #header_container{
     height: 190px;
     display: flex;
     justify-content: space-between;
@@ -42,10 +42,6 @@
     align-items: center;
 }
 
-#header_logo{
-    max-height: 200px;
-}
-
 .round{
     border: 1px solid white;
     border-radius: 100%;
@@ -76,14 +72,18 @@
     cursor: pointer;
 }
 
-#menu_logo{
-    height: 70px;
-}
-
 #user_data{
     display: flex;
     align-items: center;
 }
 .marginable{
     margin: 5px;
+} */
+
+#header_logo{
+    max-height: 200px;
+}
+
+#menu_logo{
+    height: 70px;
 }
