@@ -1,82 +1,13 @@
-/* #header_container{
-    height: 190px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-#header_content{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#header_info{
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-}
-
-#header_config_section{
-    display: flex;
-    width: 100%;
-    justify-content: inherit;
-    align-items: center;
-}
-
-#header_filter_section{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.alignable{
-    display: flex;
-    align-items: center;
-}
-
-.round{
-    border: 1px solid white;
-    border-radius: 100%;
-    padding: 13px;
-    display: flex;
-    align-items: center;
-}
-
-#search_input{
-    background: url('../../assets/img/logos/search_logo.png') no-repeat 97% center;
-    background-color: #E5E5E5;
-    width: 110%;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-}
-
-#search_input:focus-visible {
-    outline: 1px solid #FCA311;
-}
-
-#search_bar_section{
-    width: 60%;
-    margin-right: 5px;
-}
-
-#user_data{
-    display: flex;
-    align-items: center;
-}
-.marginable{
-    margin: 5px;
-} */
-
-#header_logo{
+.header_logo img{
     max-height: 200px;
 }
 
-#menu_logo{
-    height: 70px;
+.menu_logo img{
+    height: 85px;
+}
+
+.menu_logo{
+    text-align: center;
 }
 
 .hover_orange-color:hover{
@@ -103,17 +34,46 @@
     background: dimgrey;
 }
 
+.header_element_height{
+    min-height: 70px;
+}
+
+.group_middle{
+    height: 100px;
+    margin: 35px 0;
+}
+
+.group_middle div {
+    line-height: 120px;
+}
+
+.icons_header div {
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.icons_header div mat-icon{
+    line-height: 50px;
+}
+
+/* ----------------- changing style of mat-input ------------------------- */
 ::ng-deep .mat-focused .mat-form-field-label {
     /*change color of label*/
     color: #FCA311 !important;
 }
 
-::ng-deep.mat-form-field-ripple {
+::ng-deep .mat-form-field-ripple {
     /*change color of underline when focused*/
     background-color: #FCA311 !important;
 }
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+    /*change the underline (hide)*/
+    height: 0px !important;
+}
+
+/* -------------- change bootstrap -------------*/
 .form-control:focus{
-
     box-shadow: none !important;
-
 }
