@@ -1,38 +1,15 @@
-#footer_logo{
+.footer_logo{
+    text-align: center;
+}
+
+.footer_logo img{
     max-height: 350px;
+    max-width: fit-content;
+    width: -webkit-fill-available;
 }
 
-#footer_container{
-    display: flex;
-}
-
-footer{
-    background: #14213D;
-}
-
-#SM_footer{
-    display: flex;
-    align-items: center;
-}
-
-#SM_footer a{
-    text-decoration: none;
-    color: rgb(240, 240, 240);
-    margin: 3px;
-}
-
-#footer_top{
-    display: flex;
-    margin-top: 30px;
-}
-
-#email_label{
-    display: flex;
-    flex-direction: column;
-}
-
-.email_label_element{
-    margin: 3px;
+#footer_copy_bottom a{
+    color: #FCA311;
 }
 
 .logo_B_footer{
@@ -40,41 +17,35 @@ footer{
     margin: 2.5px;
 }
 
-#brands_info a{
-    text-decoration: none;
+footer, .my_footer{
+    background: #14213D;
 }
 
-.footer_info_elements{
-    margin: 20px;
+.full-width{
+    width: 100%;
 }
 
-#footer_copy_bottom a{
+.full-width input{
+    background: rgb(64, 64, 64);
+}
+
+.footer_element{
+    padding: 20px;
+}
+
+.copy_section a{
     color: #FCA311;
 }
 
-#input_email{
-    height: 40px;
-    background-color: #E5E5E5;
-    border-radius: 5px;
-    border: none;
+.footer_element mat-icon{
+    color: #FCA311;
 }
 
-#input_email:focus-visible {
-    outline: 1px solid #FCA311;
+.footer_element mat-icon:hover{
+    color: #f0b665;
 }
 
-#submit_email{
-    background: #000;
-    border-radius: 5px;
-    border: none;
-    height: 30px;
-    cursor: pointer;
-}
-
-#submit_email:hover{
-    background: rgb(78, 77, 77);
-}
-
-#submit_email:active{
-    background: #FCA311;
+/* -------------- change bootstrap -------------*/
+.form-control:focus{
+    box-shadow: none !important;
 }

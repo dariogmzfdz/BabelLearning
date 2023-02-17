@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.my_header{
+.my_header, header{
     background: #14213D;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .full-width input{
-    background: dimgrey;
+    background: rgb(64, 64, 64);
 }
 
 .header_element_height{
@@ -44,17 +44,15 @@
 }
 
 .group_middle div {
-    line-height: 120px;
-}
-
-.icons_header div {
-    text-align: center;
-    vertical-align: middle;
-    height: 50px;
+    line-height: 150px;
 }
 
 .icons_header div mat-icon{
     line-height: 50px;
+}
+
+.group_filter div {
+    display: flex
 }
 
 /* ----------------- changing style of mat-input ------------------------- */

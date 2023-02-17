@@ -1,122 +1,126 @@
 <footer>
 
-    <div id="footer_container">
+    <mat-card class="container-fluid my_footer">
 
-        <div id="footer_logo_section">            
-            <a href="#"><img src="../../assets/img/logos/MicrosoftTeams-image 1.png" alt="logo" id="footer_logo"></a>
-        </div>
+        <div class="row">
 
-        <div id="footer_info">
-            <div id="footer_top">
+            <div class="col-sm-4 footer_logo">            
+                <a href="#"><img src="../../assets/img/logos/MicrosoftTeams-image 1.png" alt="logo"></a>
+            </div>
 
-                <div id="Social_media_section" class="footer_info_elements">
-                    <div class="footer_section_title">
-                        <h2>FOLLOW US</h2>
+            <div class="col-sm-8 footer_element">
+
+                    <div class="col-md-4 footer_element ">
+
+                        <div>
+                            <h2>FOLLOW US</h2>
+                        </div>
+
+                        <div> 
+                            <p> Follow us on social networks and receive 
+                            information about our offers and other discounts.</p>
+                            <div >
+                                
+                                <a href="#"><mat-icon>reddit</mat-icon></a>
+
+                                <a href="#"><mat-icon>facebook</mat-icon></a>
+
+                                <a href="#"><mat-icon>email</mat-icon></a>
+                                
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="footer_section_info"> 
-                        <p> Follow us on social networks and receive 
-                        information about our offers and other discounts.</p>
-                        <div id="SM_footer">
-                            
-                            <a href="#"><mat-icon>reddit</mat-icon></a>
-
-                            <a href="#"><mat-icon>facebook</mat-icon></a>
-
-                            <a href="#"><mat-icon>email</mat-icon></a>
-                            
+        
+                    <div class="col-md-4 footer_element">
+                        <div>
+                            <h2>NEWSLETTERS</h2>
+                        </div>
+                        <div> 
+                            <p> Subscribe to the mailing list 
+                            to receive updates on new arrivals and special offers.</p>
+                            <div>
+                                <span id="email_footer" class="email_label_element">Email Address</span>
+                                <mat-form-field class="full-width">
+                                    <input matInput type="email" class="form form-control">
+                                </mat-form-field>
+                                <button type="button" class="btn btn-warning btn-block"> Submit </button>
+                            </div> 
                         </div>
                     </div>
-                </div>
-    
-                <div id="newsletters_section" class="footer_info_elements">
-                    <div class="footer_section_title">
-                        <h2>NEWSLETTERS</h2>
-                    </div>
-                    <div class="footer_section_info"> 
-                        <p> Subscribe to the mailing list 
-                        to receive updates on new arrivals and special offers.</p>
-                        <div id="email_label">
-                            <label for="email_footer" id="email_label">
-                                <span id="email_footer" class="email_label_element">Email Address</span>
-                                <input type="email" id="input_email" class="email_label_element">
-                                <button type="button" id="submit_email" class="email_label_element"> Submit </button>
-                            </label>
-                        </div> 
-                    </div>
-                </div>
-    
-                <div id="brands_section" class="footer_info_elements">
-                    <div class="footer_section_title">
-                        <h2>BRANDS</h2>
-                    </div>
-                    <div class="footer_section_info" id="brands_info"> 
-    
-                            <a href="https://www.bentleymotors.com/en.html">
-                                <img src="../../assets/img/Brands/bentley-logo-1400x800.png" alt="Bentley" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="https://www.bmw.es/es/home.html">
-                                <img src="../../assets/img/Brands/bmw-logo-2020-blue-white.png" alt="BMW" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="https://es.chevrolet.com/performance/corvette">
-                                <img src="../../assets/img/Brands/Corvette-logo-2014-1024x768.png" alt="Corvette" class="logo_B_footer">
-                            </a>
-    
-                            <a href="https://www.ferrari.com/es-ES">
-                                <img src="../../assets/img/Brands/ferrari-logo-750x1100.png" alt="Ferrari" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="https://www.ford.com/  ">
-                                <img src="../../assets/img/Brands/ford-logo-2017.png" alt="Ford" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="https://www.jeep.com/">
-                                <img src="../../assets/img/Brands/jeep-logo-1993.png" alt="Jeep" class="logo_B_footer">
-                            </a>
-    
-                            <a href="https://www.lamborghini.com/es-en">
-                                <img src="../../assets/img/Brands/lamborghini-logo-1000x1100.png" alt="Lamborghini" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="https://www.porsche.com/spain/">
-                                <img src="../../assets/img/Brands/porsche-logo-2100x1100.png" alt="Porsche" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="https://www.tesla.com/">
-                                <img src="../../assets/img/Brands/tesla-logo-2200x2800.png" alt="Tesla" class="logo_B_footer">
-                            </a>
+        
+                    <div class="col-md-4 footer_element">
+                        <div>
+                            <h2>BRANDS</h2>
+                        </div>
 
-                            <a href="#">
-                                <img src=".../../assets/img/Brands/Mustang-logo-2010-1920x1080.png" alt="Mustang" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="#">
-                                <img src="../../assets/img/Brands/Bugatti-logo-1024x768.png" alt="Bugatti" class="logo_B_footer">
-                            </a>
-                            
-                            <a href="#">
-                                <img src="../../assets/img/Brands/Jaguar-logo-2012-1920x1080.png" alt="Jaguar" class="logo_B_footer">
-                            </a>
-    
-                    </div>
-                </div>
-    
+                        <div> 
+        
+                                <a href="https://www.bentleymotors.com/en.html">
+                                    <img src="../../assets/img/Brands/bentley-logo-1400x800.png" alt="Bentley" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="https://www.bmw.es/es/home.html">
+                                    <img src="../../assets/img/Brands/bmw-logo-2020-blue-white.png" alt="BMW" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="https://es.chevrolet.com/performance/corvette">
+                                    <img src="../../assets/img/Brands/Corvette-logo-2014-1024x768.png" alt="Corvette" class="logo_B_footer">
+                                </a>
+        
+                                <a href="https://www.ferrari.com/es-ES">
+                                    <img src="../../assets/img/Brands/ferrari-logo-750x1100.png" alt="Ferrari" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="https://www.ford.com/  ">
+                                    <img src="../../assets/img/Brands/ford-logo-2017.png" alt="Ford" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="https://www.jeep.com/">
+                                    <img src="../../assets/img/Brands/jeep-logo-1993.png" alt="Jeep" class="logo_B_footer">
+                                </a>
+        
+                                <a href="https://www.lamborghini.com/es-en">
+                                    <img src="../../assets/img/Brands/lamborghini-logo-1000x1100.png" alt="Lamborghini" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="https://www.porsche.com/spain/">
+                                    <img src="../../assets/img/Brands/porsche-logo-2100x1100.png" alt="Porsche" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="https://www.tesla.com/">
+                                    <img src="../../assets/img/Brands/tesla-logo-2200x2800.png" alt="Tesla" class="logo_B_footer">
+                                </a>
 
-            </div>
+                                <a href="#">
+                                    <img src=".../../assets/img/Brands/Mustang-logo-2010-1920x1080.png" alt="Mustang" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="#">
+                                    <img src="../../assets/img/Brands/Bugatti-logo-1024x768.png" alt="Bugatti" class="logo_B_footer">
+                                </a>
+                                
+                                <a href="#">
+                                    <img src="../../assets/img/Brands/Jaguar-logo-2012-1920x1080.png" alt="Jaguar" class="logo_B_footer">
+                                </a>
+        
+                        </div>
 
-            <div id="footer_copy_bottom" class="footer_info_elements">
-                Copyright © <a href="#">Caram</a> 2023. All Rights Reserved. | 
-                <a href="#">Terms &amp; Conditions</a> | 
-                <a href="#">Legal Notice</a> | 
-                <a href="#">Privacy Policy</a> | 
-                <a href="#">Cookies Policy</a>
+                </div>        
+
             </div>
 
         </div>
 
+        <div class="row container copy_section">            
+            Copyright © <a href="#">Caram</a> 2023. All Rights Reserved. | 
+            <a href="#">Terms &amp; Conditions</a> | 
+            <a href="#">Legal Notice</a> | 
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Cookies Policy</a>
+        </div>
         
-    </div>
+    </mat-card>
 
 
 </footer>
