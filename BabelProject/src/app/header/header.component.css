@@ -63,7 +63,7 @@
     padding: 0;
 }
 
-/* ----------------- changing style of mat-input ------------------------- */
+/* ----------------- changing style of material------------------------ */
 ::ng-deep .mat-focused .mat-form-field-label {
     /*change color of label*/
     color: #FCA311 !important;
@@ -77,6 +77,11 @@
 ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
     /*change the underline (hide)*/
     height: 0px !important;
+}
+
+::ng-deep.mat-menu-panel {
+    /*change the width when a menu is displayed*/
+    max-width: none !important;
 }
 
 /* -------------- change bootstrap -------------*/

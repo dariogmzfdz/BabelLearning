@@ -50,9 +50,19 @@
         </div>
 
         <div class="row my_filter">
-                <div class="col-xs-2 touchable hover_orange-color"><span>News</span><mat-icon>keyboard_arrow_down</mat-icon></div>
+                <div class="col-xs-2 touchable hover_orange-color"><span>News</span></div>
 
-                <div class="col-xs-2 touchable hover_orange-color"><span>By Year</span><mat-icon>keyboard_arrow_down</mat-icon></div>
+                <div class="col-xs-2">
+
+                    <button mat-button [matMenuTriggerFor]="yearMenu" class="touchable hover_orange-color">
+                        <span>By Year</span><mat-icon>keyboard_arrow_down</mat-icon>
+                    </button>
+
+                    <mat-menu #yearMenu="matMenu">
+                        <app-filter-year></app-filter-year>
+                    </mat-menu>
+
+                </div>
 
                 <div class="col-xs-2 touchable hover_orange-color"><span>By Brand</span><mat-icon>keyboard_arrow_down</mat-icon></div>
 
