@@ -59,6 +59,10 @@
     line-height: 100px;
 }
 
+.no-padding{
+    padding: 0;
+}
+
 /* ----------------- changing style of mat-input ------------------------- */
 ::ng-deep .mat-focused .mat-form-field-label {
     /*change color of label*/
