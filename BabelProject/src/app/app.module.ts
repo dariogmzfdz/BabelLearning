@@ -10,6 +10,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
 import {MatInputModule} from '@angular/material/input';
 import { FilterYearComponent } from './header/filter-year/filter-year.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { FilterYearComponent } from './header/filter-year/filter-year.component'
     BrowserAnimationsModule,
     MatIconModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,34 +1,10 @@
-<p>filter-year works!</p>
-
-                
-<table mat-table class="mat-elevation-z8 demo-table">
-    <!-- Position Column -->
-    <ng-container matColumnDef="demo-position">
-    <th mat-header-cell *matHeaderCellDef> No. </th>
-    <td mat-cell *matCellDef="let element"> {{element.position}} </td>
-    </ng-container>
-
-    <!-- Name Column -->
-    <ng-container matColumnDef="demo-name">
-    <th mat-header-cell *matHeaderCellDef> Name </th>
-    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
-    </ng-container>
-
-    <!-- Weight Column -->
-    <ng-container matColumnDef="demo-weight">
-    <th mat-header-cell *matHeaderCellDef> Weight </th>
-    <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
-    </ng-container>
-
-    <!-- Symbol Column -->
-    <ng-container matColumnDef="demo-symbol">
-    <th mat-header-cell *matHeaderCellDef> Symbol </th>
-    <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
-    </ng-container>
-
-    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
-    
-    
-
+<mat-card class="container">
+    <mat-card-content class="row">
+        <div *ngFor="let element of cars" class="col-md-4">
+            <div class="touchable">
+                <img [src]="element.imgPath">
+                <h4> {{element.year}} </h4>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

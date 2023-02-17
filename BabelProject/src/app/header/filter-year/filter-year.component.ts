@@ -1,11 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-export interface PeriodicElement {
-  name: string;
-  position: number;
-  weight: number;
-  symbol: string;
-}
+import { DataFilter } from 'src/app/services/filter_year.service';
 
 
 @Component({
@@ -14,24 +8,22 @@ export interface PeriodicElement {
   styleUrls: ['./filter-year.component.css']
 })
 export class FilterYearComponent implements OnInit {
-
-  ELEMENT_DATA: PeriodicElement[] = [
-    {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
-    {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},
-    {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},
-    {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},
-    {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},
-    {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},
-    {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},
-    {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},
-    {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},
-    {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},
-  ];
-  
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  cars: DataFilter[] = [
+    {year: 'Until 1949', imgPath: '../../../assets/img/filters/byYear/1940-1949.jpg'},
+    {year: 'From 1950 to 1959', imgPath: '../../../assets/img/filters/byYear/1950-1959.jpg'},
+    {year: 'From 1960 to 1969', imgPath: '../../../assets/img/filters/byYear/1960-1969.jpg'},
+    {year: 'From 1970 to 1979', imgPath: '../../../assets/img/filters/byYear/1970-1979.jpg'},
+    {year: 'From 1980 to 1989', imgPath: '../../../assets/img/filters/byYear/1980-1989.jpg'},
+    {year: 'From 1990 to 1999', imgPath: '../../../assets/img/filters/byYear/1990-1999.jpg'},
+    {year: 'From 2000 to 2009', imgPath: '../../../assets/img/filters/byYear/2000-2009.jpg'},
+    {year: 'From 2010 to 2019', imgPath: '../../../assets/img/filters/byYear/2010-2019.jpg'},
+    {year: 'From 2020 until nowadays', imgPath: '../../../assets/img/filters/byYear/2020-2029.jpg'},
+  ];
 
 }
 
