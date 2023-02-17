@@ -37,6 +37,10 @@ footer, .my_footer{
     color: #FCA311;
 }
 
+.copy_section{
+    margin: 10px 0;
+}
+
 .footer_element mat-icon{
     color: #FCA311;
 }

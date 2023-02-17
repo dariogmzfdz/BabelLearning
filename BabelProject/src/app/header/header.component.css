@@ -22,10 +22,6 @@
     background: #14213D;
 }
 
-.header_content{
-    height: 200px;
-}
-
 .full-width{
     width: 100%;
 }
@@ -34,26 +30,10 @@
     background: rgb(64, 64, 64);
 }
 
-.header_element_height{
-    min-height: 70px;
+.my_filter{
+    text-align: center;
 }
 
-.group_middle{
-    height: 100px;
-    margin: 35px 0;
-}
-
-.group_middle div {
-    line-height: 150px;
-}
-
-.icons_header div mat-icon{
-    line-height: 50px;
-}
-
-.group_filter div {
-    display: flex
-}
 
 /* ----------------- changing style of mat-input ------------------------- */
 ::ng-deep .mat-focused .mat-form-field-label {
