@@ -9,13 +9,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
 import {MatInputModule} from '@angular/material/input';
+import { FilterYearComponent } from './header/filter-year/filter-year.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FilterYearComponent
   ],
   imports: [
     BrowserModule,
