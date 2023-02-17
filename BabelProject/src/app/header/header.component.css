@@ -3,7 +3,7 @@
 }
 
 .menu_logo img{
-    height: 85px;
+    max-height: 85px;
 }
 
 .menu_logo{
@@ -30,10 +30,34 @@
     background: rgb(64, 64, 64);
 }
 
-.my_filter{
-    text-align: center;
+.my_filter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.personal_section{
+    height: 110px;
+    line-height: 160px;
+}
+
+.header_logo_sm img{
+    max-height: 100px;
+}
+
+.menu_logo_sm img{
+    max-height: 40px;
+}
+
+.menu_logo_sm{
+    line-height: 88px !important;
+}
+
+.my_header_sm div{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
 
 /* ----------------- changing style of mat-input ------------------------- */
 ::ng-deep .mat-focused .mat-form-field-label {
