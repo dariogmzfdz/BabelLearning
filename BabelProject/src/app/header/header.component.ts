@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { MatMenuTrigger } from '@angular/material/menu';
 
 @Component({
   selector: 'app-header',
@@ -10,8 +11,7 @@ export class HeaderComponent implements OnInit{
   screenWidth: number;
   computerWidthSize: boolean;
 
-  constructor() { 
-  }
+  constructor() {}
 
   ngOnInit(): void {
     this.screenWidth = window.innerWidth;
@@ -33,5 +33,12 @@ export class HeaderComponent implements OnInit{
       this.computerWidthSize = false;
     }
   }
+
+  openMyMenu(menuTrigger: MatMenuTrigger) {
+    menuTrigger.openMenu();
+  }   
+  closeMyMenu(menuTrigger: MatMenuTrigger) {
+    menuTrigger.closeMenu();
+  } 
 
 }

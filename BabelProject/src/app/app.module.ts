@@ -12,6 +12,10 @@ import {MatInputModule} from '@angular/material/input';
 import { FilterYearComponent } from './header/filter-year/filter-year.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatMenuModule} from '@angular/material/menu';
+import { FilterBrandComponent } from './header/filter-brand/filter-brand.component';
+import { FilterScaleComponent } from './header/filter-scale/filter-scale.component';
+import { FilterPriceComponent } from './header/filter-price/filter-price.component';
+import { FilterTypeComponent } from './header/filter-type/filter-type.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import {MatMenuModule} from '@angular/material/menu';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    FilterYearComponent
+    FilterYearComponent,
+    FilterBrandComponent,
+    FilterScaleComponent,
+    FilterPriceComponent,
+    FilterTypeComponent
   ],
   imports: [
     BrowserModule,

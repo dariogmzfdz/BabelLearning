@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataFilter } from 'src/app/services/filter_year.service';
+import { DataFilter } from 'src/app/services/filters/filter_year.service';
 
 
 @Component({
