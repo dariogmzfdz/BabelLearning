@@ -1,8 +1,9 @@
 import { Injectable } from "@angular/core";
 
-export interface DataFilter {
+export interface DataFilterYear {
     year: string;
     imgPath: string;
+    id: number;
 }
 
 

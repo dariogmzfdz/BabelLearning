@@ -31,11 +31,15 @@
 }
 
 .my_filter div button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: inherit;
     border: none;
+    display: flex;
+    align-items: center;
+}
+
+.my_filter div{    
+    display: flex;
+    justify-content: center;
 }
 
 .my_filter div button:focus-visible{
@@ -88,6 +92,10 @@
 ::ng-deep.mat-menu-panel {
     /*change the width when a menu is displayed*/
     max-width: none !important;
+}
+
+::ng-deep.menu_active{
+    color: #FCA311;
 }
 
 /* -------------- change bootstrap -------------*/
