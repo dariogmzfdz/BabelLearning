@@ -1,3 +1,7 @@
 img{
     width: -webkit-fill-available;
 }
+
+.touchable:hover{
+    cursor: pointer;
+}
