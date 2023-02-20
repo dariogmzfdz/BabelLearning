@@ -1,5 +1,5 @@
 import { elementEventFullName } from '@angular/compiler/src/view_compiler/view_compiler';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FilterTypeService } from 'src/app/services/filters/filter_type.service';
 
 @Component({

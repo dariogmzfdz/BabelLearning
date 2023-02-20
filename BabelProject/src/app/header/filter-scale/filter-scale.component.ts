@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FilterScaleService } from 'src/app/services/filters/filter_scale.service';
 
 @Component({
   selector: 'app-filter-scale',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FilterScaleComponent implements OnInit {
 
-  constructor() { }
+  constructor(private filterScale: FilterScaleService) { }
+
+  scale = this.filterScale.scale;
 
   ngOnInit(): void {
+    console.log(this.scale);
   }
 
 }

@@ -47,7 +47,7 @@ export class FilterTypeService{
             {name: 'Formula 1', imgUrl: '../../../assets/img/filters/byType/f1peq.jpg', id: 3},
             {name: 'Fernando Alonso', imgUrl: '../../../assets/img/filters/byType/alonsopeq.jpg', id: 4},
             {name: 'Carlos Sainz', imgUrl: '../../../assets/img/filters/byType/sainzpeq.jpg', id: 5},
-            {name: 'GT Sports', imgUrl: '../../../assets/img/filters/byType/racing.jpg', id: 6},
+            {name: 'GT Sports', imgUrl: '../../../assets/img/filters/byType/racingpeq.jpg', id: 6},
             ]
         },
         {category: 'Motorcycles and bikes', 

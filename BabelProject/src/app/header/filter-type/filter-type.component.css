@@ -1,0 +1,8 @@
+.touchable:hover{
+    cursor: pointer;
+    color: #FCA311;
+}
+
+.touchable{
+    text-align: center;
+}

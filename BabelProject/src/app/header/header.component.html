@@ -62,7 +62,7 @@
                 <div class="col-xs-2">
 
                     <button mat-button [ngClass]="menuYearTrigger.menuOpen? 'menu_active' : ''" [matMenuTriggerFor]="yearMenu" #menuYearTrigger="matMenuTrigger"
-                    (mouseover)="openMyMenu(menuYearTrigger)">
+                    (mouseenter)="openMyMenu(menuYearTrigger)">
                         <span>By Year</span><mat-icon>keyboard_arrow_down</mat-icon>
                     </button>
 

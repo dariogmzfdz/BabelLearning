@@ -1,1 +1,13 @@
 <p>filter-scale works!</p>
+
+<mat-card>
+    <mat-card-content *ngFor="let element of scale; let i = index" class="col-md-4">
+        <div *ngIf="i == 1">
+            In the 1:18 scale, one centimeter of the miniature represents 18 centimeters of the real model, 
+            or what is the same; 18 centimeters of the real model are represented in 1 centimeter of the miniature. 
+            To know the measurements of a 1:18 scale model, we will have to divide the measurements of the real model 
+            by 18, and so on for each of the different scales.
+        </div>
+        <img *ngIf="i != 1" [src]="element.imgPath">
+    </mat-card-content>
+</mat-card>
