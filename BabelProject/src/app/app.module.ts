@@ -16,6 +16,7 @@ import { FilterBrandComponent } from './header/filter-brand/filter-brand.compone
 import { FilterScaleComponent } from './header/filter-scale/filter-scale.component';
 import { FilterPriceComponent } from './header/filter-price/filter-price.component';
 import { FilterTypeComponent } from './header/filter-type/filter-type.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { FilterTypeComponent } from './header/filter-type/filter-type.component'
     MatCardModule,
     MatInputModule,
     MatTableModule,
-    MatMenuModule
+    MatMenuModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

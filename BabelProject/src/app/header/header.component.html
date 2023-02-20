@@ -72,7 +72,7 @@
 
                 </div>
 
-                <div class="col-xs-2 touchable hover_orange-color">
+                <div class="col-xs-2">
 
                     <button mat-button [ngClass]="menuBrandTrigger.menuOpen ? 'menu_active' : ''" [matMenuTriggerFor]="brandMenu" #menuBrandTrigger="matMenuTrigger"
                     (mouseenter)="openMyMenu(menuBrandTrigger)">
@@ -85,7 +85,7 @@
 
                 </div>
 
-                <div class="col-xs-2 touchable hover_orange-color">
+                <div class="col-xs-2">
 
                     <button mat-button [ngClass]="menuScaleTrigger.menuOpen ? 'menu_active' : ''" [matMenuTriggerFor]="scaleMenu" #menuScaleTrigger="matMenuTrigger"
                     (mouseenter)="openMyMenu(menuScaleTrigger)">
@@ -98,7 +98,7 @@
                     
                 </div>
     
-                <div class="col-xs-2 touchable hover_orange-color">
+                <div class="col-xs-2">
 
                     <button mat-button [ngClass]="menuPriceTrigger.menuOpen ? 'menu_active' : ''" [matMenuTriggerFor]="priceMenu" #menuPriceTrigger="matMenuTrigger"
                     (mouseenter)="openMyMenu(menuPriceTrigger)">
@@ -112,18 +112,18 @@
                     
                 </div>
 
-                <div class="col-xs-2 touchable hover_orange-color">
+                <div class="col-xs-2">
 
-                    <button mat-button [ngClass]="menuTypeTrigger.menuOpen? 'menu_active' : ''" [matMenuTriggerFor]="typeMenu" #menuTypeTrigger="matMenuTrigger"
+                    <button mat-button [ngClass]="menuTypeTrigger.menuOpen ? 'menu_active' : ''" [matMenuTriggerFor]="typeMenu" #menuTypeTrigger="matMenuTrigger"
                     (mouseenter)="openMyMenu(menuTypeTrigger)">
-                        <span>By Type</span><mat-icon>keyboard_arrow_down</mat-icon>
+                        <span>By type</span><mat-icon>keyboard_arrow_down</mat-icon>
                     </button>
 
                     <mat-menu #typeMenu="matMenu">
-                        <app-filter-type (mouseleave)="closeMyMenu(menuTypeTrigger)"></app-filter-type  >
+                        <app-filter-type (mouseleave)="closeMyMenu(menuTypeTrigger)"></app-filter-type>
                     </mat-menu>
 
-                    
+
                 </div>   
         </div>
 

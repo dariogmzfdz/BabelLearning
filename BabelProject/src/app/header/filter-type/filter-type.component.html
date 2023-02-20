@@ -1,1 +1,16 @@
-<p>filter-type works!</p>
+<mat-accordion class="container-fluid" *ngFor="let element of type; let i = index">
+    <mat-expansion-panel class="row" [expanded]="true">
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            <h2> {{element.category}} </h2>
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <div class="col-sm-4" *ngFor="let elContent of element.content">
+        <img [src]="elContent.imgUrl">
+        <p> {{elContent.name}} </p>
+    </div>
+
+    </mat-expansion-panel>
+</mat-accordion>
+    
