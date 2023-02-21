@@ -5,3 +5,7 @@ img{
 .touchable:hover{
     cursor: pointer;
 }
+
+.my_card{
+    width: 100%;
+}

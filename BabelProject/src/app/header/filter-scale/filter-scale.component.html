@@ -1,8 +1,10 @@
-<mat-card *ngFor="let element of scale; let i = index" class="col-md-4">
-    <p>
-        {{element.context}}
-    </p>
-    <a href="#" class="touchable">
-        <img [src]="element.imgPath">
-    </a>
+<mat-card class="row my_card">
+    <mat-card-content *ngFor="let element of scale; let i = index" class="col-md-4">
+        <span>
+            {{element.context}}
+        </span>
+        <a href="#" class="touchable">
+            <img [src]="element.imgPath">
+        </a>
+    </mat-card-content>
 </mat-card>
