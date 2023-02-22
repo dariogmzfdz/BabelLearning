@@ -18,4 +18,4 @@ import { UsersListComponent } from './users-list/users-list.component';
     CommonModule
   ]
 })
-export class ComponentModule { }
+export class ComponentModulePrivate { }
